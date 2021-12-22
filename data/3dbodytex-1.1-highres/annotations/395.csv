@@ -1,0 +1,12 @@
+filename,file_size,file_attributes,region_count,region_id,region_shape_attributes,region_attributes
+model_highres_0_normalized.png,10875688,"{}",11,0,"{""name"":""rect"",""x"":1606,""y"":690,""width"":35,""height"":40}","{""lesion"":""1""}"
+model_highres_0_normalized.png,10875688,"{}",11,1,"{""name"":""rect"",""x"":1476,""y"":704,""width"":26,""height"":30}","{""lesion"":""2""}"
+model_highres_0_normalized.png,10875688,"{}",11,2,"{""name"":""rect"",""x"":1513,""y"":802,""width"":26,""height"":27}","{""lesion"":""3""}"
+model_highres_0_normalized.png,10875688,"{}",11,3,"{""name"":""rect"",""x"":1539,""y"":783,""width"":27,""height"":29}","{""lesion"":""4""}"
+model_highres_0_normalized.png,10875688,"{}",11,4,"{""name"":""rect"",""x"":1277,""y"":653,""width"":33,""height"":32}","{""lesion"":""5""}"
+model_highres_0_normalized.png,10875688,"{}",11,5,"{""name"":""rect"",""x"":1049,""y"":783,""width"":32,""height"":30}","{""lesion"":""6""}"
+model_highres_0_normalized.png,10875688,"{}",11,6,"{""name"":""rect"",""x"":1136,""y"":1049,""width"":31,""height"":33}","{""lesion"":""7""}"
+model_highres_0_normalized.png,10875688,"{}",11,7,"{""name"":""rect"",""x"":898,""y"":895,""width"":26,""height"":31}","{""lesion"":""8""}"
+model_highres_0_normalized.png,10875688,"{}",11,8,"{""name"":""rect"",""x"":584,""y"":1677,""width"":18,""height"":20}","{""lesion"":""9""}"
+model_highres_0_normalized.png,10875688,"{}",11,9,"{""name"":""rect"",""x"":521,""y"":1703,""width"":20,""height"":25}","{""lesion"":""10""}"
+model_highres_0_normalized.png,10875688,"{}",11,10,"{""name"":""rect"",""x"":496,""y"":1660,""width"":25,""height"":25}","{""lesion"":""11""}"
