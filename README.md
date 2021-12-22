@@ -27,17 +27,17 @@ To use `skin3d`:
 
 We provide example notebooks to help explain the format of the data.
 
-- [bodytex_annotations_data]() shows the format of the train, valid, and multiple annotator test data
-- [bodytex_longitudinal_data]() shows the format of the IDs used to track the same lesion across scans
-- [bodytex_annotations_visual]() illustrates how to visualize multiple annotators on a texture image 
+- [bodytex_annotations_data](https://github.com/jeremykawahara/skin3d_private/blob/main/notebooks/bodytex_annotations_data.ipynb) shows the format of the train, valid, and multiple annotator test data
+- [bodytex_longitudinal_data](https://github.com/jeremykawahara/skin3d_private/blob/main/notebooks/bodytex_longitudinal_data.ipynb) shows the format of the IDs used to track the same lesion across scans
+- [bodytex_annotations_visual](https://github.com/jeremykawahara/skin3d_private/blob/main/notebooks/bodytex_annotations_visual.ipynb) illustrates how to visualize multiple annotators on a texture image 
 
 ## Structure
 
 This repository is structured as follows:
 
-- [data/]() contains the 25,000+ manual lesion annotations for 3DBodyTex
-- [notebooks/]() contains example notebooks that load and process the annotations
-- [skin3d/]() contains the Python package to load and process the annotations
+- [data/](https://github.com/jeremykawahara/skin3d_private/tree/main/data) contains the 25,000+ manual lesion annotations for 3DBodyTex
+- [notebooks/](https://github.com/jeremykawahara/skin3d_private/tree/main/notebooks) contains example notebooks that load and process the annotations
+- [skin3d/](https://github.com/jeremykawahara/skin3d/tree/master/skin3d) contains the Python package to load and process the annotations
 
 ## Related Publications
 If you use this data or code, please cite the following works:
