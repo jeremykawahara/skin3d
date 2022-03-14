@@ -5,7 +5,7 @@
 
 `skin3d` is a Python module that provides manually annotated lesion bounding boxes on textured images as described in,
 
-> Mengliu Zhao, Jeremy Kawahara, Kumar Abhishek, Sajjad Shamanian, Ghassan Hamarneh. "Skin3D: Detection and Longitudinal Tracking of Pigmented Skin Lesions in 3D Total-Body Textured Meshes," Medical Image Analysis. 2021. [[pdf](https://arxiv.org/abs/2105.00374)][[doi](https://doi.org/10.1016/j.media.2021.102329)]
+> Mengliu Zhao, Jeremy Kawahara, Kumar Abhishek, Sajjad Shamanian, Ghassan Hamarneh. "Skin3D: Detection and Longitudinal Tracking of Pigmented Skin Lesions in 3D Total-Body Textured Meshes," Medical Image Analysis. 2021. [[pdf](https://arxiv.org/abs/2105.00374)][[doi](https://doi.org/10.1016/j.media.2021.102329)][[video](https://www.youtube.com/watch?v=8iErLS0bzY4)]
 
 ## Download the Meshes
 
