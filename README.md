@@ -3,7 +3,7 @@
 ![Skin3D Graphical Abstract](https://ars.els-cdn.com/content/image/1-s2.0-S1361841521003741-ga1_lrg.jpg "Graphical Abstract of our contributions")
 
 
-<! --[![Skin3d](https://i.imgur.com/sFnqEME.png)](https://www.youtube.com/watch?v=8iErLS0bzY4 "Skin3d")
+<!-- [![Skin3d](https://i.imgur.com/sFnqEME.png)](https://www.youtube.com/watch?v=8iErLS0bzY4 "Skin3d")
 -->
 
  [Paper](https://www.sciencedirect.com/science/article/pii/S1361841521003741) | [Arxiv](https://arxiv.org/pdf/2105.00374.pdf) | [DOI](https://doi.org/10.1016/j.media.2021.102329) | [Video](https://www.youtube.com/watch?v=8iErLS0bzY4) 
@@ -29,28 +29,31 @@ If you use the data or any part of the code, please consider citing our work, an
   publisher={Elsevier}
 }
 ```
-> Mengliu Zhao, Jeremy Kawahara, Kumar Abhishek, Sajjad Shamanian, Ghassan Hamarneh. "Skin3D: Detection and Longitudinal Tracking of Pigmented Skin Lesions in 3D Total-Body Textured Meshes," Medical Image Analysis. 2021. [[pdf](https://arxiv.org/abs/2105.00374)][[doi](https://doi.org/10.1016/j.media.2021.102329)][[video](https://www.youtube.com/watch?v=8iErLS0bzY4)]
+<!-- Mengliu Zhao, Jeremy Kawahara, Kumar Abhishek, Sajjad Shamanian, Ghassan Hamarneh. "Skin3D: Detection and Longitudinal Tracking of Pigmented Skin Lesions in 3D Total-Body Textured Meshes," Medical Image Analysis. 2021. [[pdf](https://arxiv.org/abs/2105.00374)][[doi](https://doi.org/10.1016/j.media.2021.102329)][[video](https://www.youtube.com/watch?v=8iErLS0bzY4)]
+-->
 
 ## Download the Meshes
 
-https://cvi2.uni.lu/datasets/
+The 3D total-body scans can be downloaded here: [3DBodyTex.v1](https://cvi2.uni.lu/datasets/)
+You need to sign an agreement in order to access the data. 
+Once you get the data, you can start using `skin3d`.
 
-`3DBodyTex.v1` contains the meshes and can be downloaded from the external site linked above. 
-
-The bounding boxes provided by `skin3d` correspond to the <b>high</b> resolution meshes.
+**NOTE**: The bounding boxes provided by `skin3d` correspond to the <b>high</b> resolution meshes.
 
 ## Installation Instructions
 
 To use `skin3d`:
 
+```
 1. Fill out the form to request and download [3DBodyTex.v1](https://cvi2.uni.lu/datasets/)
 2. Clone this repository: `git clone https://github.com/jeremykawahara/skin3d.git`
 3. Navigate to the repository: `cd skin3d`
 4. Create a new environment using [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands): `conda create -n skin3d python=3.7`
 5. Activate the environment: `conda activate skin3d`
 6. Install the requirements: `pip install -r requirements.txt`
+```
 
-## Examples
+## How to Use `skin3d`
 
 We provide example notebooks to help explain the format of the data.
 
@@ -58,7 +61,7 @@ We provide example notebooks to help explain the format of the data.
 - [bodytex_longitudinal_data](https://github.com/jeremykawahara/skin3d/blob/master/notebooks/bodytex_longitudinal_data.ipynb) shows the format of the IDs used to track the same lesion across scans
 - [bodytex_annotations_visual](https://github.com/jeremykawahara/skin3d/blob/master/notebooks/bodytex_annotations_visual.ipynb) illustrates how to visualize multiple annotators on a texture image 
 
-## Structure
+## Folder Structure
 
 This repository is structured as follows:
 
@@ -67,10 +70,36 @@ This repository is structured as follows:
 - [skin3d/](https://github.com/jeremykawahara/skin3d/tree/master/skin3d) contains the Python package to load and process the annotations
 
 ## Related Publications
+
 If you use this data or code, please cite the following works:
 
 Description of the annotated bounding boxes:
+<!--
 > Mengliu Zhao, Jeremy Kawahara, Kumar Abhishek, Sajjad Shamanian, Ghassan Hamarneh. "Skin3D: Detection and Longitudinal Tracking of Pigmented Skin Lesions in 3D Total-Body Textured Meshes," Medical Image Analysis. 2021. [[pdf](https://arxiv.org/abs/2105.00374)][[doi](https://doi.org/10.1016/j.media.2021.102329)]
+-->
+```tex
+@article{zhao2022skin3d,
+  title={Skin3D: Detection and longitudinal tracking of pigmented skin lesions in 3D total-body textured meshes},
+  author={Zhao, Mengliu and Kawahara, Jeremy and Abhishek, Kumar and Shamanian, Sajjad and Hamarneh, Ghassan},
+  journal={Medical Image Analysis},
+  volume={77},
+  pages={102329},
+  year={2022},
+  publisher={Elsevier}
+}
+```
 
 Description of the meshes:
+<!-- 
 > Saint, A., Ahmed, E., Shabayek, A. E. R., Cherenkova, K., Gusev, G., Aouada, D., & Ottersten, B. (2018). "3DBodyTex: Textured 3D body dataset". International Conference on 3D Vision, 495–504. [[doi]](https://doi.org/10.1109/3DV.2018.00063) [[pdf]](https://core.ac.uk/download/pdf/162022926.pdf)
+-->
+```tex
+@inproceedings{saint20183dbodytex,
+  title={3dbodytex: Textured 3d body dataset},
+  author={Saint, Alexandre and Ahmed, Eman and Cherenkova, Kseniya and Gusev, Gleb and Aouada, Djamila and Ottersten, Bjorn and others},
+  booktitle={2018 International Conference on 3D Vision (3DV)},
+  pages={495--504},
+  year={2018},
+  organization={IEEE}
+}
+```
