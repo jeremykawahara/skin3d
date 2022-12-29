@@ -43,16 +43,14 @@ Once you get the data, you can start using `skin3d`.
 
 To use `skin3d`:
 
-```markdown
 1. Fill out the form to request and download [3DBodyTex.v1](https://cvi2.uni.lu/datasets/)
 2. Clone this repository: `git clone https://github.com/jeremykawahara/skin3d.git`
 3. Navigate to the repository: `cd skin3d`
 4. Create a new environment using [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands): `conda create -n skin3d python=3.7`
 5. Activate the environment: `conda activate skin3d`
 6. Install the requirements: `pip install -r requirements.txt`
-```
 
-## How to Use `skin3d`
+## How to Use `Skin3D`
 
 We provide example notebooks to help explain the format of the data.
 
