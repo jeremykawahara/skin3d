@@ -43,7 +43,7 @@ Once you get the data, you can start using `skin3d`.
 
 To use `skin3d`:
 
-```
+```markdown
 1. Fill out the form to request and download [3DBodyTex.v1](https://cvi2.uni.lu/datasets/)
 2. Clone this repository: `git clone https://github.com/jeremykawahara/skin3d.git`
 3. Navigate to the repository: `cd skin3d`
