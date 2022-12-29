@@ -2,10 +2,14 @@
 
 ![Skin3D Graphical Abstract](https://ars.els-cdn.com/content/image/1-s2.0-S1361841521003741-ga1_lrg.jpg "Graphical Abstract of our contributions")
 
+
 <! --[![Skin3d](https://i.imgur.com/sFnqEME.png)](https://www.youtube.com/watch?v=8iErLS0bzY4 "Skin3d")
 -->
 
-This is the official code repository for our paper, "[Skin3D: Detection and Longitudinal Tracking of Pigmented Skin Lesions in 3D Total-Body Textured Meshes]("https://www.sciencedirect.com/science/article/pii/S1361841521003741), published in Medical Imaging Analysis, 2021.
+ [Paper](https://www.sciencedirect.com/science/article/pii/S1361841521003741) | [Arxiv](https://arxiv.org/pdf/2105.00374.pdf) | [DOI](https://doi.org/10.1016/j.media.2021.102329) | [Video](https://www.youtube.com/watch?v=8iErLS0bzY4) 
+:---:|:---:|:-----:
+
+This is the official code repository for our paper, "[Skin3D: Detection and Longitudinal Tracking of Pigmented Skin Lesions in 3D Total-Body Textured Meshes](https://www.sciencedirect.com/science/article/pii/S1361841521003741)", published in Medical Imaging Analysis, 2021.
 
 In this work, we propose an automated approach to detect and longitudinally track skin lesions on the skin surface of 3D total-body scans.
 As there currently is no other large-scale publicly available dataset of 3D total-body skin lesions, we publicly release over `25,000` 3DBodyTex manual annotations, which we hope will further encourage research on total-body skin lesion analysis.
