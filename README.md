@@ -1,10 +1,30 @@
-# skin3d
+# Skin3D
 
+![Skin3D Graphical Abstract](https://ars.els-cdn.com/content/image/1-s2.0-S1361841521003741-ga1_lrg.jpg "Graphical Abstract of our contributions")
 
-[![Skin3d](https://i.imgur.com/sFnqEME.png)](https://www.youtube.com/watch?v=8iErLS0bzY4 "Skin3d")
+<! --[![Skin3d](https://i.imgur.com/sFnqEME.png)](https://www.youtube.com/watch?v=8iErLS0bzY4 "Skin3d")
+-->
 
-`skin3d` is a Python module that provides manually annotated lesion bounding boxes on textured images as described in,
+This is the official code repository for our paper, "[Skin3D: Detection and Longitudinal Tracking of Pigmented Skin Lesions in 3D Total-Body Textured Meshes]("https://www.sciencedirect.com/science/article/pii/S1361841521003741), published in Medical Imaging Analysis, 2021.
 
+In this work, we propose an automated approach to detect and longitudinally track skin lesions on the skin surface of 3D total-body scans.
+As there currently is no other large-scale publicly available dataset of 3D total-body skin lesions, we publicly release over `25,000` 3DBodyTex manual annotations, which we hope will further encourage research on total-body skin lesion analysis.
+
+This repo provides the data for 3DBodyTex bounding boxes annotations, and shows how to visualize and use the code in your project.
+
+If you use the data or any part of the code, please consider citing our work, and the original 3DBodyTex dataset.
+
+```tex
+@article{zhao2022skin3d,
+  title={Skin3D: Detection and longitudinal tracking of pigmented skin lesions in 3D total-body textured meshes},
+  author={Zhao, Mengliu and Kawahara, Jeremy and Abhishek, Kumar and Shamanian, Sajjad and Hamarneh, Ghassan},
+  journal={Medical Image Analysis},
+  volume={77},
+  pages={102329},
+  year={2022},
+  publisher={Elsevier}
+}
+```
 > Mengliu Zhao, Jeremy Kawahara, Kumar Abhishek, Sajjad Shamanian, Ghassan Hamarneh. "Skin3D: Detection and Longitudinal Tracking of Pigmented Skin Lesions in 3D Total-Body Textured Meshes," Medical Image Analysis. 2021. [[pdf](https://arxiv.org/abs/2105.00374)][[doi](https://doi.org/10.1016/j.media.2021.102329)][[video](https://www.youtube.com/watch?v=8iErLS0bzY4)]
 
 ## Download the Meshes
