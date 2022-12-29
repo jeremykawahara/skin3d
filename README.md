@@ -7,7 +7,6 @@
 -->
 
  [Paper](https://www.sciencedirect.com/science/article/pii/S1361841521003741) | [Arxiv](https://arxiv.org/pdf/2105.00374.pdf) | [DOI](https://doi.org/10.1016/j.media.2021.102329) | [Video](https://www.youtube.com/watch?v=8iErLS0bzY4) 
-:---:|:---:|:-----:
 
 This is the official code repository for our paper, "[Skin3D: Detection and Longitudinal Tracking of Pigmented Skin Lesions in 3D Total-Body Textured Meshes](https://www.sciencedirect.com/science/article/pii/S1361841521003741)", published in Medical Imaging Analysis, 2021.
 
@@ -34,7 +33,7 @@ If you use the data or any part of the code, please consider citing our work, an
 
 ## Download the Meshes
 
-The 3D total-body scans can be downloaded here: [3DBodyTex.v1](https://cvi2.uni.lu/datasets/)
+The 3D total-body scans can be downloaded here: [3DBodyTex.v1](https://cvi2.uni.lu/datasets/).
 You need to sign an agreement in order to access the data. 
 Once you get the data, you can start using `skin3d`.
 
