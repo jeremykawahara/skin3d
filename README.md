@@ -70,7 +70,7 @@ This repository is structured as follows:
 
 If you use this data or code, please cite the following works:
 
-Description of the annotated bounding boxes:
+Description of the annotated bounding boxes [[pdf](https://arxiv.org/abs/2105.00374)] [[doi](https://doi.org/10.1016/j.media.2021.102329)]:
 <!--
 > Mengliu Zhao, Jeremy Kawahara, Kumar Abhishek, Sajjad Shamanian, Ghassan Hamarneh. "Skin3D: Detection and Longitudinal Tracking of Pigmented Skin Lesions in 3D Total-Body Textured Meshes," Medical Image Analysis. 2021. [[pdf](https://arxiv.org/abs/2105.00374)][[doi](https://doi.org/10.1016/j.media.2021.102329)]
 -->
@@ -86,7 +86,7 @@ Description of the annotated bounding boxes:
 }
 ```
 
-Description of the meshes:
+Description of the meshes [[pdf](https://core.ac.uk/download/pdf/162022926.pdf)] [[doi](https://doi.org/10.1109/3DV.2018.00063)]:
 <!-- 
 > Saint, A., Ahmed, E., Shabayek, A. E. R., Cherenkova, K., Gusev, G., Aouada, D., & Ottersten, B. (2018). "3DBodyTex: Textured 3D body dataset". International Conference on 3D Vision, 495–504. [[doi]](https://doi.org/10.1109/3DV.2018.00063) [[pdf]](https://core.ac.uk/download/pdf/162022926.pdf)
 -->
